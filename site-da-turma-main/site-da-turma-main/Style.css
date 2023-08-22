@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(89, 12, 160);
+    background-color: rgb(112, 81, 223);
     color:white;
     font-size: 18px;
     font-style: bold;
@@ -14,7 +14,6 @@ body {
 .meio{
     justify-content: space-around;
     display:flex;
-
 }
 .menu {
     position: fixed;
@@ -22,14 +21,13 @@ body {
     left: 0px;
     width: 100%;
     height: 20px;
-    background-color: rgb(35, 5, 63);
-    color: aliceblue;
-    color: inherit;
-
-
+    background-color: rgb(57, 26, 167);
+    text-decoration: none;
+    
 }
-.paragrafo-titulo {
 
+.tela-inicial {
+    
 }
 
 .topico{
@@ -66,18 +64,26 @@ body {
  	margin-top: 50px; /* Espaço superior de 10 pixels */
         margin-bottom: 50px; /* Espaço inferior de 10 pixels */
 }
-
-.escola {
-	background-image: linear-gradient(BLACK,GREY);
+.vidro {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(44, 25, 117, 0.623);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.escola { 
+    border-radius: 10px;
   	display: flex;
  	align-items: center; 
 	justify-content: center;
+    margin-bottom: 20px;
 }
 
 .sobreescola{
 	width:75%;
 	margin-left: 100px;
-
 }
 
 .turma img {
