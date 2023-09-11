@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(89, 12, 160);
+    background-color: black;
     color:white;
     font-size: 18px;
     font-style: bold;
@@ -13,8 +13,7 @@ body {
 
 .meio{
     justify-content: space-around;
-    display:flex;
-
+    Display:flex;
 }
 .menu {
     position: fixed;
@@ -22,16 +21,10 @@ body {
     left: 0px;
     width: 100%;
     height: 20px;
-    background-color: rgb(35, 5, 63);
-    color: aliceblue;
-    color: inherit;
-
-
+    background-color: rgb(59, 211, 160);
+    text-decoration: none;
+    
 }
-.paragrafo-titulo {
-
-}
-
 .topico{
     margin-right: 10cm;
     margin-top: 100px;
