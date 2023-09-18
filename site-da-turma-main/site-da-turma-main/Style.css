@@ -1,49 +1,40 @@
-* {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: rgb(89, 12, 160);
+    background-color: rgb(112, 81, 223);
     color:white;
     font-size: 18px;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-.menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; 
-    padding: 25px 25px;
-    border-bottom: 2px solid #d36f41;
-    background: linear-gradient(100deg, #110316, #211826, #3b0c4e);
-}
 
 .logoescola {
     width: 30%;
-    margin: 40px 40px 40px;
+    margin-top: 100px;
 }
 
 .meio{
     justify-content: space-around;
     display:flex;
-    margin: 40px 40px 40px;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(57, 26, 167);
+    text-decoration: none;
+    
 }
 
-.paragrafo-titulo {
-    font-size: 14px;
+.tela-inicial {
+    
 }
 
-.nome-colegio{
-    font-size: 25px;
-
-}
 .topico{
     margin-right: 10cm;
     margin-top: 100px;
     font-size: 24px;
+    
 }
 
 .estudantetitulo {
@@ -71,23 +62,28 @@ body {
 	width:75%;
 	margin-right: 100px;
  	margin-top: 50px; /* Espaço superior de 10 pixels */
-    margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
 }
-
-.escola {
-    background-color: rgb(35, 5, 63);
+.vidro {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(44, 25, 117, 0.623);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.escola { 
+    border-radius: 10px;
   	display: flex;
  	align-items: center; 
 	justify-content: center;
-    margin:50px 50px 50px;
-    border-radius: 20px;
-    box-shadow: 8px 2px 15px black;
+    margin-bottom: 20px;
 }
 
 .sobreescola{
 	width:75%;
 	margin-left: 100px;
-
 }
 
 .turma img {
@@ -98,8 +94,7 @@ body {
 }
 
 .turma {
-    background-color: rgb(35, 5, 63);
-    border-radius: 20px;
+	background-image: linear-gradient(grey,black);
   	display: flex;
  	align-items: center; 
 	justify-content: center;
@@ -109,11 +104,7 @@ body {
 	width:550%;
 	margin-right: 10px;
 }
-.sobre-turma {
-    margin:50px 50px 50px;
-    border-radius: 20px;
-    box-shadow: 8px 2px 15px black;
-}
+
 img {
     border-radius: 10px;
 }
