@@ -1,44 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Nunito+Sans:wght@300;700&display=swap'); /*Fonte do google fonts*/
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(112, 81, 223);
+    background-color: rgb(89, 12, 160);
     color:white;
     font-size: 18px;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 15px 15px;
+    border-bottom: 2px solid #d36f41;
+    background: linear-gradient(100deg, #110316, #211826, #3b0c4e);
+}
+
+.menu-item {
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 30px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: background 1.0s;
+    transform: translateX(1px) scale(0.8);
+}
+.menu-item:hover, .menu-item:focus {
+    background: #d36f41;
+    color: rgb(23, 12, 72);
+    border-radius: 25px;
+    transform: translateX(1px) scale(1.1);
+    box-shadow: 8px 2px 15px black;
+}
 
 .logoescola {
     width: 30%;
-    margin-top: 100px;
+    margin: 40px 40px 40px;
 }
 
 .meio{
     justify-content: space-around;
     display:flex;
-}
-.menu {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 20px;
-    background-color: rgb(57, 26, 167);
-    text-decoration: none;
-    
+    margin: 40px 40px 40px;
 }
 
-.tela-inicial {
-    
+.paragrafo-titulo {
+    font-size: 14px;
 }
 
+.nome-colegio{
+    font-size: 40px;
+}
 .topico{
     margin-right: 10cm;
     margin-top: 100px;
     font-size: 24px;
-    
 }
 
 .estudantetitulo {
-	margin-left: 100px;
+    font-family: 'Khand', sans-serif;
+    font-size: 25px;
+    color: #FFF2E7;
+    height: 50px;
+    display: flex;
+    padding: 40px;
+    border-top: 2px solid #d36f41;
+    border-bottom: 2px solid #d36f41;
+    background: linear-gradient(210deg, #22082c, #211826, #22082c);
+    align-items: center;
+    justify-content: center;
 }
 
 .estudantes {
@@ -51,6 +89,7 @@ body {
     margin-top: 30px; /* Espaço superior de 10 pixels */
     margin-bottom: 30px; /* Espaço inferior de 10 pixels */
     width: 300px;
+    border-color:#d36f41
 }
 
 .item img{
@@ -62,23 +101,17 @@ body {
 	width:75%;
 	margin-right: 100px;
  	margin-top: 50px; /* Espaço superior de 10 pixels */
-        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+    margin-bottom: 50px; /* Espaço inferior de 10 pixels */
 }
-.vidro {
-    width: 100%;
-    height: 500px;
-    background-color: rgba(44, 25, 117, 0.623);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
-    border-radius: 8px;
-    margin-bottom: 100px;
-}
-.escola { 
-    border-radius: 10px;
+
+.escola {
+    background-color: rgb(35, 5, 63);
   	display: flex;
  	align-items: center; 
 	justify-content: center;
-    margin-bottom: 20px;
+    margin:50px 50px 50px;
+    border-radius: 20px;
+    box-shadow: 8px 2px 15px black;
 }
 
 .sobreescola{
@@ -90,11 +123,12 @@ body {
 	width:75%;
 	margin-left: 100px;
  	margin-top: 50px; /* Espaço superior de 10 pixels */
-        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+    margin-bottom: 50px; /* Espaço inferior de 10 pixels */
 }
 
 .turma {
-	background-image: linear-gradient(grey,black);
+    background-color: rgb(35, 5, 63);
+    border-radius: 20px;
   	display: flex;
  	align-items: center; 
 	justify-content: center;
@@ -104,7 +138,24 @@ body {
 	width:550%;
 	margin-right: 10px;
 }
-
+#sobre-turma {
+    margin:50px 50px 50px;
+    border-radius: 20px;
+    box-shadow: 8px 2px 15px black;
+}
 img {
     border-radius: 10px;
+}
+
+.rodape{
+    font-family: 'Khand', sans-serif;
+    font-size: 25px;
+    color: #FFF2E7;
+    height: 80px;
+    display: flex;
+    padding: 40px;
+    border-top: 2px solid #d36f41;
+    background: linear-gradient(210deg, #22082c, #211826, #22082c);
+    align-items: center;
+    justify-content: center;
 }
