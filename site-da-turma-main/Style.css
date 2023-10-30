@@ -53,13 +53,14 @@ body {
 }
 
 .paragrafo-titulo {
-    font-size: 25px;
+    font-size: 14px;
 }
 
 .nome-colegio{
-    font-size: 50px;
+    font-size: 40px;
 }
 .topico{
+    margin-right: 10cm;
     margin-top: 100px;
     font-size: 24px;
 }
@@ -150,24 +151,11 @@ img {
     font-family: 'Khand', sans-serif;
     font-size: 25px;
     color: #FFF2E7;
-    height: 50px;
+    height: 80px;
     display: flex;
     padding: 40px;
     border-top: 2px solid #d36f41;
     background: linear-gradient(210deg, #22082c, #211826, #22082c);
     align-items: center;
     justify-content: center;
-}
-
-.jogo {
-    background-image: linear-gradient(blue,black);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-}
-
-.jogo img{
-    width: 200px;
-    height: 200px;
 }
