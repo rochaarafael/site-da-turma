@@ -27,7 +27,7 @@ h1 {
 .casa {
     width: 100px;
     height: 100px;
-    background-color: beige;
+    background-color: rgb(220, 245, 235);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,5 +45,5 @@ button {
 }
 
 button:hover{
-    background-color: ##0056b3;
+    background-color: #0056b3;
 }
